@@ -1,8 +1,9 @@
 # UVxCopy-Tool
 extrahiert aus einem Mesh/Shape im GIANTS Editor UV2 und/oder UV3 um sie in Blender zusammenzuführen
 (extracted from a mesh/shape in the GIANTS Editor UV2 and/or UV3 to merge them in Blender)
+___________________________________________________________________________________________________________________________________
+Tutorial (german)
 https://www.youtube.com/watch?v=O6D2IYQmtpQ
-
 ___________________________________________________________________________________________________________________________________
 Video Tutorial to use
 First Step , copy the lua into the directory for Example: C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts
