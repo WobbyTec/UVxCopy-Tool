@@ -6,6 +6,14 @@ ________________________________________________________________________________
 Tutorial (german)
 https://www.youtube.com/watch?v=O6D2IYQmtpQ
 ___________________________________________________________________________________________________________________________________
+German
+
+Im ersten Schritt kopieren Sie die Lua-Datei in das Verzeichnis, z. B. C:\Programme\GIANTS Software\GIANTS_Editor_10.0.11\scripts. Speichern Sie das Programm „UV2OBJ.exe“ aus diesem Paket an einem geeigneten Ort (z. B. auf dem Desktop). Starten Sie den GIANTS Editor und öffnen Sie Ihr i3D-Modell, das Sie bearbeiten möchten. Wählen Sie das Mesh/Shape aus, das Sie ändern möchten (nur eins!!). Exportieren Sie das ausgewählte Mesh/Shape und erstellen Sie außerdem zwei oder drei Kopien davon, z. B. decals2.obj, decals2_UV2.obj und decals2_UV3.obj. Starten Sie nun UVxCopyWobbyTec über das Menü „Gemeinsame Skripte“ oben im GIANTS Editor. Sie sehen nun alle VT-Linien Ihres decal2-Mesh/Shape. Klicken Sie auf die Schaltfläche „copyUV2“ und starten Sie „UV2OBJ.exe“.
+Wählen Sie nun die Datei „decals2_UV2.obj“ aus. Die VT-Linien werden automatisch eingefügt.
+Das selbe können Sie mit der Schaltfläche „UV3 kopieren“ und der Datei „decals2_UV3“ tun. Öffnen/importieren Sie nun die OBJ-Dateien in Blender und erstellen Sie in „decals2“ zwei neue UV-Maps: „UV-MapUV2“ und „UV-MapUV3“. Wählen Sie zuerst „UV-MapUV2“ aus (nicht aktivieren nur selektieren) und klicken Sie dann in Blender auf eine freie Stelle, um die Auswahl aufzuheben. Führen Sie nun folgende Schritte aus: Halten Sie die linke Umschalttaste gedrückt und klicken Sie auf „decals2_UV2“ und anschließend auf „decals2“ in Ihrer Szene. Drücken Sie Strg+L und wählen Sie die Funktion „UV-Maps kopieren“. Wählen Sie nun in „decals2“ die UV-MapUV3 aus und wiederholen Sie den Vorgang mit „decals2_UV3“ in Ihrer Szene. Wenn alles korrekt ausgeführt wurde, befinden sich nun alle benötigten UVs im Hauptobjekt „decals2“. Sie können nun Ihre Änderungen vornehmen und das korrekte Objekt exportieren.
+
+______________________________________________________________________________________________________________________________________
+english
 
 First Step , copy the lua into the directory for Example: C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts
 save the Program within this pack "UV2OBJ.exe" to a good available place ( Desktop or other)
