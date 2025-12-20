@@ -1,4 +1,4 @@
-# UVxCopy-Tool
+# UVxCopy-Tool-WobbyTec
 extrahiert aus einem Mesh/Shape im GIANTS Editor UV2 und/oder UV3 um sie in Blender zusammenzuführen
 
 (extracted from a mesh/shape in the GIANTS Editor UV2 and/or UV3 to merge them in Blender)
