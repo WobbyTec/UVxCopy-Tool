@@ -1,5 +1,5 @@
 # UVxCopy-Tool-WobbyTec
-Blender Version 5.x.x erforderlich ! ! (nicht für Blender 4.x.x oder älter geeignet)
+UVxCopyWobbyTec läuft unter folgenden Blender Versionen:  ✅ v4.0.1  ✅ v4.1.1   ✅v4.5.4   ✅ v5.x.x  --- nicht mit  ❌ 4.2.x   ❌ 4.3.x  ❌ 4.4.x
 extrahiert aus einem Mesh/Shape im GIANTS Editor UV2 und/oder UV3 um sie in Blender zusammenzuführen
 
 (extracted from a mesh/shape in the GIANTS Editor UV2 and/or UV3 to merge them in Blender)
