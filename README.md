@@ -23,7 +23,7 @@ Ausführung :
 - In Blender die exportierte OBJ importieren und in den UV_Editor wechseln
 - den UV Bereich auf der rechten Seite in den Blick Bereich hoch schieben
 - mit der Maus auf der rechten Seite die Taste "N" drücken und im Seiten Menü "WOBBYTEC" Register anklicken
-- im Ersten Eingabefeld oben rechts mit dem "Ordner- Symbol" die exportiert OBJ Datei auswählen
+- im Ersten Eingabefeld oben rechts mit dem "Ordner- Symbol" die exportierte OBJ Datei auswählen
 - bei Start der LS25 Version ist wenn der GIANTS Editor v10.x genutzt wird nichts weiter zu tun weil die LOG Datei Default eingestellt ist
   sollte sich die LOG Datei woanders befinden als angezeigt wird diese bitte manuell einstellen
 - das Objekt das die UV2/UV3 empfangen soll rechts in der Szene selektieren !!
