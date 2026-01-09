@@ -9,9 +9,11 @@ Tutorial (german)
 https://www.youtube.com/watch?v=O6D2IYQmtpQ
 ___________________________________________________________________________________________________________________________________
 German
+
 Installation:
 - die UVxCopyWobbyTecFS22.lua in das Verzeichnis C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts kopieren
 - Blender öffnen und unter Einstellungen > AddOns > Install from Disk .. wählen und die UVxMergeWobbyTec.py auswählen
+
 Ausführung :
 - Im GIANTS Editor das Mesh/Shape auswählen das exportiert/bearbeitet werden soll und es einmal als OBJ exportieren und speichern
 - Das Script "UVX-Copy-WobbyTec" aus dem Scipt Menü ausführen...
@@ -31,9 +33,11 @@ Sollten Fehler auftreten, ggf. den Vorgang wiederholen
 
 ______________________________________________________________________________________________________________________________________
 english:
+
 Installation
 - Copy UVxCopyWobbyTecFS22.lua to the directory C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts
 - Open Blender and go to Preferences > AddOns > Install from Disk... and select UVxMergeWobbyTec.py
+
 Executing:
 - In the GIANTS Editor, select the mesh/shape you want to export/edit, export it as an OBJ file, and save it.
 - Run the script "UVX-Copy-WobbyTec" from the Script menu...
