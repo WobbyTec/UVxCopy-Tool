@@ -9,23 +9,45 @@ Tutorial (german)
 https://www.youtube.com/watch?v=O6D2IYQmtpQ
 ___________________________________________________________________________________________________________________________________
 German
+Installation:
+- die UVxCopyWobbyTecFS22.lua in das Verzeichnis C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts kopieren
+- Blender öffnen und unter Einstellungen > AddOns > Install from Disk .. wählen und die UVxMergeWobbyTec.py auswählen
+Ausführung :
+- Im GIANTS Editor das Mesh/Shape auswählen das exportiert/bearbeitet werden soll und es einmal als OBJ exportieren und speichern
+- Das Script "UVX-Copy-WobbyTec" aus dem Scipt Menü ausführen...
+- das Fenster das sich öffnet wenn alle Zeilen ausgelesen wurden (FS22 Version bitte warten bis Buttons wieder klickbar )
+- das Fenster kann geschlossen werden 
+- den GIANTS Editor aber geöffnet lassen bzw. nach dem Schliessen nicht starten !! bis die Arbeit an der OBJ abgschlossen ist in Blender !!!
+- In Blender die exportierte OBJ importieren und in den UV_Editor wechseln
+- den UV Bereich auf der rechten Seite in den Blick Bereich hoch schieben
+- mit der Maus auf der rechten Seite die Taste "N" drücken und im Seiten Menü "WOBBYTEC" Register anklicken
+- im Ersten Eingabefeld oben rechts mit dem "Ordner- Symbol" die exportiert OBF Datei auswählen
+- bei Start der LS25 Version ist wenn der GIANTS Editor v10.x genutzt wird nichts weiter zu tun weil die LOG Datei Default eingestellt ist
+  sollte sich die LOG Datei woanders befinden als angezeigt wird diese bitte manuell einstellen
+- das Objekt das die UV2/UV3 empfangen soll rechts in der Szene selektieren !!
+- "UV2 + UV3 erzeugen" anklicken und die UVs werden in das selktierte Objekt geschrieben
 
-Im ersten Schritt kopieren Sie die Lua-Datei in das Verzeichnis, z. B. C:\Programme\GIANTS Software\GIANTS_Editor_10.0.11\scripts. Speichern Sie das Programm „UV2OBJ.exe“ aus diesem Paket an einem geeigneten Ort (z. B. auf dem Desktop). Starten Sie den GIANTS Editor und öffnen Sie Ihr i3D-Modell, das Sie bearbeiten möchten. Wählen Sie das Mesh/Shape aus, das Sie ändern möchten (nur eins!!). Exportieren Sie das ausgewählte Mesh/Shape und erstellen Sie außerdem zwei oder drei Kopien davon, z. B. decals2.obj, decals2_UV2.obj und decals2_UV3.obj. Starten Sie nun UVxCopyWobbyTec über das Menü „Gemeinsame Skripte“ oben im GIANTS Editor. Sie sehen nun alle VT-Linien Ihres decal2-Mesh/Shape. Klicken Sie auf die Schaltfläche „copyUV2“ und starten Sie „UV2OBJ.exe“.
-Wählen Sie nun die Datei „decals2_UV2.obj“ aus. Die VT-Linien werden automatisch eingefügt.
-Das selbe können Sie mit der Schaltfläche „UV3 kopieren“ und der Datei „decals2_UV3“ tun. Öffnen/importieren Sie nun die OBJ-Dateien in Blender und erstellen Sie in „decals2“ zwei neue UV-Maps: „UV-MapUV2“ und „UV-MapUV3“. Wählen Sie zuerst „UV-MapUV2“ aus (nicht aktivieren nur selektieren) und klicken Sie dann in Blender auf eine freie Stelle, um die Auswahl aufzuheben. Führen Sie nun folgende Schritte aus: Halten Sie die linke Umschalttaste gedrückt und klicken Sie auf „decals2_UV2“ und anschließend auf „decals2“ in Ihrer Szene. Drücken Sie Strg+L und wählen Sie die Funktion „UV-Maps kopieren“. Wählen Sie nun in „decals2“ die UV-MapUV3 aus und wiederholen Sie den Vorgang mit „decals2_UV3“ in Ihrer Szene. Wenn alles korrekt ausgeführt wurde, befinden sich nun alle benötigten UVs im Hauptobjekt „decals2“. Sie können nun Ihre Änderungen vornehmen und das korrekte Objekt exportieren.
+Sollten Fehler auftreten, ggf. den Vorgang wiederholen
 
 ______________________________________________________________________________________________________________________________________
-english
+english:
+Installation
+- Copy UVxCopyWobbyTecFS22.lua to the directory C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts
+- Open Blender and go to Preferences > AddOns > Install from Disk... and select UVxMergeWobbyTec.py
+Executing:
+- In the GIANTS Editor, select the mesh/shape you want to export/edit, export it as an OBJ file, and save it.
+- Run the script "UVX-Copy-WobbyTec" from the Script menu...
+- The window that opens after all lines have been read (FS22 version, please wait until the buttons are clickable again)
+- This window can be closed.
+- Leave the GIANTS Editor open, or do not start it after closing it, until the work on the OBJ file in Blender is complete!
+- Import the exported OBJ file into Blender and switch to the UV Editor.
+- Move the UV area on the right side up into view.
+- Press the "N" key on the right side of the screen and click the "WOBBYTEC" tab in the side menu.
+- In the first input field in the upper right, select the exported OBF file using the folder icon.
+- When starting the LS25 version, if you are using the GIANTS Editor v10.x, no further action is required because the LOG file is set to the default location.
+  If the LOG file is located elsewhere than displayed, please configure it manually.
 
-First Step , copy the lua into the directory for Example: C:\Program Files\GIANTS Software\GIANTS_Editor_10.0.11\scripts
-save the Program within this pack "UV2OBJ.exe" to a good available place ( Desktop or other)
-Start GIANTS Editor and open your i3d Modell you want to change. select a Mesh/Shape you want change (only one)
-export the selected Mesh/Shape and export also 2 or 3 Copys from , Example: decals2.obj , decals2_UV2.obj , decals2_UV3.obj
-now start the UVxCopyWobbyTec out of the Menue on Top of GIANTS Editor "shared scripts"
-now you will see all vt Lines were found out of your decal2 Mesh/Shape. press Button copyUV2 and start forward "UV2OBJ.exe" ... now choose the decals2_UV2.obj and the vt Lines will write into
-You can do the same with the button copy UV3 and the file decals2_UV3
-Now you can open/import the obj Files in Blender and you have to edit in the decals2.obj File decals2.obj 2 new UV-Maps UV-MapUV2 and UV-MapUV3
-select at first UV-MapUV2 and than click on the free place in Blender to loose all selections, now do follow clicks
-hold ShiftLeft and click on decals2_UV2 and than on decals2 in youre Scene , press Ctrl+L and use the function "Copy UV-Maps"
-Now select in the base decals2 the UV-MapUV3 and do it again with decals2_UV3 on your scene
-If all is right done you have in main decals2 object all UVs you need and now you can do your changes !! and Export a right Object to use
+- Select the object in the scene on the right that should receive the UV2/UV3.
+- Click "Generate UV2 + UV3" and the UVs will be written to the selected object.
+
+If errors occur, repeat the process.
