@@ -23,7 +23,7 @@ Ausführung :
 - In Blender die exportierte OBJ importieren und in den UV_Editor wechseln
 - den UV Bereich auf der rechten Seite in den Blick Bereich hoch schieben
 - mit der Maus auf der rechten Seite die Taste "N" drücken und im Seiten Menü "WOBBYTEC" Register anklicken
-- im Ersten Eingabefeld oben rechts mit dem "Ordner- Symbol" die exportiert OBF Datei auswählen
+- im Ersten Eingabefeld oben rechts mit dem "Ordner- Symbol" die exportiert OBJ Datei auswählen
 - bei Start der LS25 Version ist wenn der GIANTS Editor v10.x genutzt wird nichts weiter zu tun weil die LOG Datei Default eingestellt ist
   sollte sich die LOG Datei woanders befinden als angezeigt wird diese bitte manuell einstellen
 - das Objekt das die UV2/UV3 empfangen soll rechts in der Szene selektieren !!
@@ -47,7 +47,7 @@ Executing:
 - Import the exported OBJ file into Blender and switch to the UV Editor.
 - Move the UV area on the right side up into view.
 - Press the "N" key on the right side of the screen and click the "WOBBYTEC" tab in the side menu.
-- In the first input field in the upper right, select the exported OBF file using the folder icon.
+- In the first input field in the upper right, select the exported OBJ file using the folder icon.
 - When starting the LS25 version, if you are using the GIANTS Editor v10.x, no further action is required because the LOG file is set to the default location.
   If the LOG file is located elsewhere than displayed, please configure it manually.
 
